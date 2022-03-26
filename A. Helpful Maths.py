@@ -1,5 +1,4 @@
-numbers =map(int,input().split())
-number=list(numbers)
-
-number.sort()
-print(number)
+inp=input().replace("+","")
+inp2=sorted(inp)
+res='+'.join(map(str,inp2))
+print(res)
