@@ -1,12 +1,8 @@
-n=int(input())
+n= int(input())
 
+x = list(map(int, input().split()))
 
-x=list(map(int,input().split()))
-i=1   
-for j in range(n):
-    x[j]=i
-    i=i+1
-for i in range(n):
-    print(x[i])
-
-
+for i in range (1, n+1):
+    for j in range (n):
+        if i==x[j]:
+            print(j+1,end=" ")
