@@ -1,13 +1,17 @@
 n=int(input())
 for i in range(n):
     x=input()
-    set2=set(x)
+    l=len(x)
+    res=x[0]+x[1]
+    for j in range(3,l,2):
+        res=res+x[j]
+    print(res)
+    """set2=set(x)
     if len(set2)==1:
-            print(((len(x)//2)+1)*(x[0])) 
-    if len(x)==2 :
+            print(((len(x)//2)+1)*(x[0]))
+    if len(x)==2 and len(set2)==2:
         print(x)
-    
-    elif len(x)>2 and len(set2)>1 :
+    elif len(x)>2 and len(set2)>=2 :
         list2=[]
         list1=list(x)
         a=list1[0]
@@ -17,7 +21,5 @@ for i in range(n):
         for j in list1:
             if j not in list2:
                 list2.append(j)
-        #print(list2)
-        #set1=set(list1)
-        #s = ''.join(set1)
-        print(f"{a}{list2}{b}")
+        s = ''.join(list2)
+        print(f"{a}{s}{b}")"""
