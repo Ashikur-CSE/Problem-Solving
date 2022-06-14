@@ -10,6 +10,5 @@ for i in range(int(input())):
         print("NO")
     elif n%3==0:
         print("YES")
-
     else:
         print("NO")
