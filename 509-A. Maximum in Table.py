@@ -1,5 +1,2 @@
-n = int(input())
-r = 1
-for i in range(1, n):
-  r = r * (n + i - 1) // i
-print(r)
+l1=[0,1,2,6,20,70,252,924,3432,12870,48620]
+print(l1[int(input())])
