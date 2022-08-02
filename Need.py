@@ -3,7 +3,7 @@ l1=list(map(int,input().split()))
 l1= list(map(int,input().split()))
 a,b = map(int,input().split())
 n=int(input())
-
+s=[int(x) for x in input()]#input number without space in a list
 """#list to int
 s = [str(i) for i in l3] 
     result = str(" ".join(s)) 
