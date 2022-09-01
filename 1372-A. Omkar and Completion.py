@@ -16,3 +16,6 @@ for i in range (int(input())):
             s = [str(i) for i in x[:n]] 
             result = str(" ".join(s)) 
         print(result)
+# other solution
+# for _ in range(int(input())):
+#   print('1 '*int(input()))
