@@ -4,6 +4,9 @@ l1= list(map(int,input().split()))
 a,b = map(int,input().split())
 n=int(input())
 s=[int(x) for x in input()]#input number without space in a list
+#sort
+l1.sort()
+l1=sorted(list(map(int,input().split())))
 
 s.count('B')#list,string
 """#list to int
