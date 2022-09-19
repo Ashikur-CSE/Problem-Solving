@@ -13,3 +13,7 @@ s.count('B')#list,string
 s = [str(i) for i in l3] 
     result = str(" ".join(s)) 
     print(result)"""
+
+#find Index Number:
+x = txt.find("e", 5, 10)
+x = re.findall("ai", txt)#Koto glo ache
