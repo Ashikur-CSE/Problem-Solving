@@ -1,11 +1,13 @@
-nk=int(input())
-x=0
-l1=[]
-for i in range(1,nk+1):
-    l1.append(i)
-l1.sort(reverse=True)
-for i in l1:
-    x=x&(i&i+1)
-  
-    print(x)
+# for i in range(int(input())):
+#     n=int(input())
+#     for i in range(n,1,-1):
+#         z=i&(i-1)
+#         if z==0:
+#             print(i-1)
+#             break
+for i in range(int(input())):
+    n=int(input())
+    z=len(bin(n))-3
+    print((2**z)-1)
+
 
