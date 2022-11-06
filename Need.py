@@ -8,12 +8,12 @@ s=[int(x) for x in input()]#input number without space in a list
 l1.sort()
 l1=sorted(list(map(int,input().split())))
 
-s.count('B')#list,string
+# s.count('B')#list,string
 """#list to int
 s = [str(i) for i in l3] 
     result = str(" ".join(s)) 
     print(result)"""
 
 #find Index Number:
-x = txt.find("e", 5, 10)
-x = re.findall("ai", txt)#Koto glo ache
+# x = txt.find("e", 5, 10)
+# x = re.findall("ai", txt)#Koto glo ache
