@@ -8,6 +8,8 @@ s=[int(x) for x in input()]#input number without space in a list
 l1.sort()
 l1=sorted(list(map(int,input().split())))
 
+listToStr = ''.join([str(elem) for elem in l1])
+
 # s.count('B')#list,string
 """#list to int
 s = [str(i) for i in l3] 
