@@ -19,3 +19,7 @@ s = [str(i) for i in l3]
 #find Index Number:
 # x = txt.find("e", 5, 10)
 # x = re.findall("ai", txt)#Koto glo ache
+
+# store in string from loop
+data=''
+data=data+str(i)
