@@ -23,3 +23,5 @@ s = [str(i) for i in l3]
 # store in string from loop
 data=''
 data=data+str(i)
+import string
+string.lowercase.index('b')
