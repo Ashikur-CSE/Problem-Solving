@@ -25,3 +25,5 @@ data=''
 data=data+str(i)
 import string
 string.lowercase.index('b')
+
+print("{0:.6f}".format(p1))
