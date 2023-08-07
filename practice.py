@@ -1,3 +1,7 @@
-for i in range(int(input())):
-    p=int(input())
-    print(2,p-1)
+for _ in range(int(input())):
+    n, k = map(int, input().split())
+    a = list(map(int, input().split()))
+    b = sorted(list(map(int, input().split())))
+    print(b)
+
+    
