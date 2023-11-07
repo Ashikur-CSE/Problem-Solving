@@ -1,5 +1,6 @@
 #include<iostream>
-#include<bits/stdc++.h>
+//For Competetive Programming
+#include<bits/stdc++.h>//include all header
 //for math function
 #include<cmath>
 
