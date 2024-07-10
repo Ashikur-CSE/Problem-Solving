@@ -11,10 +11,11 @@ for(int x: a){
 cout<<x<<endl;
 } 
 //Sort an array
-sort(a,a+n);//n array length
+sort(a,a+n);//n array length start,end
 //space separated input in array
 int arr[n];
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
+
 
