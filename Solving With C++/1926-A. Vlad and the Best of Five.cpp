@@ -1,25 +1,37 @@
 #include<bits/stdc++.h>
+#include<algorithm>
 using namespace std;
 int main(){
     int t;
     cin>>t;
-    while(t--){
+while(t--){
         string text;
         cin>>text;
-        int a,b;
-        char s='A';
-        char s2='B';
-        for(int i;i<text.length();i++){
-            if(text[i]==s){
-                a=a+1; 
-            }
-            else if(text[i]==s2){
-                b=b+1;
-            }
-        }
-        cout<<a<<"\n";
-        cout<<b;
 
+        char char1='A';
+        char char2='B';
 
+        int countA=0;
+        int countB=0;
+
+       for (int i=0;i<text.length();i++){
+        if(text[i]==char1){
+            countA+=1;
+       }
+       else{
+        countB+=1;
+       }
     }
+
+   if(countA>countB){
+    cout<<"A"<<endl;
 }
+else{
+    cout<<"B"<<endl;
+}
+}
+}
+
+
+    
+
