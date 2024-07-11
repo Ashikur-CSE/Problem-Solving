@@ -4,6 +4,10 @@
 //for math function
 #include<cmath>
 
+//sliching string
+string r = s1.substr(3, 2);
+
+
 
 //Print all value of an array
 int a[n];
@@ -17,5 +21,7 @@ int arr[n];
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
+//length of array
+int n= sizeof(arr)/sizeof(int);
 
 
